@@ -1,0 +1,6 @@
+streamlit
+pdfplumber
+docx2txt
+python-docx
+Pillow
+google-generativeai
