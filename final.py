@@ -132,6 +132,6 @@ Generate {details['total_questions']} questions for {section}, ensuring:
                 buffer = io.BytesIO()
                 doc.save(buffer)
                 buffer.seek(0)
-                
 
                 st.download_button("Download as DOCX", buffer, "question_paper.docx", "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
+
