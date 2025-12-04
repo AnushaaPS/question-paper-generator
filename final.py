@@ -9,7 +9,7 @@ from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from PIL import Image
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyB1qhH7dOvu_Qr85Vzw-LbyyNumxtca1WA")  
+genai.configure(api_key="AIzaSyCmdM19grFkoGVbg0pzZ42wbfWNN0PPKUw")  
 model = genai.GenerativeModel(model_name="gemini-2.5-pro")
 
 st.title("AI-Based Smart Exam Question Generator 📝🤖")
@@ -134,4 +134,5 @@ Generate {details['total_questions']} questions for {section}, ensuring:
                 buffer.seek(0)
 
                 st.download_button("Download as DOCX", buffer, "question_paper.docx", "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
+
 
